@@ -185,16 +185,16 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
 }
-.attributes ul li .wrapper{
+.attributes ul li .wrapper {
   display: flex;
   width: 270px;
   height: 120px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
   justify-content: center;
 }
-.wrapper svg{
+.wrapper svg {
   padding-left: 100px;
 }
 .attributes ul li {
@@ -295,6 +295,12 @@ body {
   font-size: 16px;
   line-height: 1.19;
   margin-bottom: 30px;
+}
+.social-media
+{
+  width: 206px;
+  height: 56px;
+  margin: 16px 32px 18px;
 }
 /*finish our team*/
 .footer {
