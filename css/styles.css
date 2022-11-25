@@ -94,19 +94,31 @@ body {
   width: 135px;
   color: var(--color-grey);
   text-decoration: none;
-  margin-left: 371px;
   padding-top: 32px;
 }
 .email:hover,
 .email:focus {
   color: var(--color-blue);
 }
+.envelope
+{
+  margin-left: 361px;
+  margin-right: 10px;
+}
 .telephone {
   width: 110px;
   color: var(--color-grey);
   text-decoration: none;
-  margin-left: 50px;
   padding-top: 32px;
+}
+.telephone:hover,
+.telephone:focus {
+  color: var(--color-blue);
+}
+.smartphone
+{
+  margin-left: 40px;
+  margin-right: 10px;
 }
 /*finish menu*/
 .section {
