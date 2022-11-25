@@ -118,6 +118,10 @@ body {
   margin-left: 40px;
   margin-right: 10px;
 }
+.smartphone:hover,
+.smartphone:focus {
+  color: var(--color-blue);
+}
 /*finish menu*/
 .section {
   padding-top: 94px;
