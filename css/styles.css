@@ -91,35 +91,37 @@ body {
 }
 /*finish navigation*/
 .email {
-  width: 135px;
+  width: 161px;
   color: var(--color-grey);
   text-decoration: none;
-  padding-top: 32px;
+  display: flex;
+  margin-left: 345px;
+  align-items: center;
 }
 .email:hover,
 .email:focus {
   color: var(--color-blue);
+  fill: var(--color-blue);
 }
 .envelope {
-  margin-left: 361px;
   margin-right: 10px;
 }
 .telephone {
-  width: 110px;
+  width: 130px;
   color: var(--color-grey);
   text-decoration: none;
-  padding-top: 32px;
+}
+.telephone {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+}
+.smartphone {
+  margin-right: 10px;
 }
 .telephone:hover,
 .telephone:focus {
   color: var(--color-blue);
-}
-.smartphone {
-  margin-left: 40px;
-  margin-right: 10px;
-}
-.smartphone:hover,
-.smartphone:focus {
   fill: var(--color-blue);
 }
 /*finish menu*/
