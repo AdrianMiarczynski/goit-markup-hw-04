@@ -328,7 +328,8 @@ body {
   justify-content: center;
   align-items: center;
 }
-.social-media-icons:hover {
+.social-media-icons:hover, 
+.social-media-icons:focus {
   background-color: var(--color-blue);
   fill: var(--color-background);
 }
@@ -361,7 +362,8 @@ body {
   justify-content: center;
   align-items: center;
 }
-.company-logo:hover {
+.company-logo:hover,
+.company-logo:focus {
   border: 1px solid var(--color-blue);
   fill: var(--color-blue);
 }
