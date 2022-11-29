@@ -13,7 +13,7 @@
   --color-img-border: #eeeeee;
   --color-background-img: #2f303a66;
   --color-icons-social-media: #afb1b8;
-  --color-border-icons: #AFB1B8;
+  --color-border-icons: #afb1b8;
 }
 body {
   position: relative;
@@ -328,7 +328,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.social-media-icons:hover, 
+.social-media-icons:hover,
 .social-media-icons:focus {
   background-color: var(--color-blue);
   fill: var(--color-background);
@@ -428,20 +428,17 @@ body {
   color: var(--color-background);
   text-decoration: none;
 }
-.footer-icons-media
-{
+.footer-icons-media {
   display: flex;
   flex-direction: column;
   margin-left: 70px;
   width: 206px;
   margin-top: 72px;
 }
-.footer-icons-media .social-media
-{
+.footer-icons-media .social-media {
   margin: 20px 0 0 0;
 }
-.footer-icons-media p
-{
+.footer-icons-media p {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -449,8 +446,8 @@ body {
   text-transform: uppercase;
   color: var(--color-background);
 }
-.footer-icons-media a{
-  background:rgba(255, 255, 255, 0.1);
+.footer-icons-media a {
+  background: rgba(255, 255, 255, 0.1);
   fill: var(--color-background);
 }
 /*finish footer*/
@@ -483,6 +480,8 @@ body {
   cursor: pointer;
   border: none;
   border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .filters li button {
   background-color: var(--color-third-header-button);
@@ -512,6 +511,10 @@ body {
 .main-box li {
   list-style: none;
   border: 1px solid var(--color-third-header-button);
+}
+.main-box li:hover{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+  1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .main-box li .box-img {
   margin: 0;
