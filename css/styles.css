@@ -141,7 +141,7 @@ body {
       var(--color-background-img),
       var(--color-background-img)
     ),
-    url("./images/overlay.png");
+    url("/images/overlay.png");
   background-size: contain;
 }
 .top {
