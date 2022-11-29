@@ -501,6 +501,7 @@ body {
 /*finish filters*/
 .main-box {
   display: flex;
+  box-sizing: content-box;
   flex-wrap: wrap;
   gap: 30px;
   padding-top: 50px;
