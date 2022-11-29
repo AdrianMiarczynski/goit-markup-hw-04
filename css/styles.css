@@ -142,7 +142,6 @@ body {
       var(--color-background-img)
     ),
     url(/images/img-overlay.png);
-  background-size: contain;
 }
 .top {
   display: flex;
