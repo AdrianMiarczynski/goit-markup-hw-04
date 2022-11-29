@@ -12,6 +12,7 @@
   --color-third-header-button: #f5f4fa;
   --color-img-border: #eeeeee;
   --color-background-img: #2f303a66;
+  --color-icons-social-media: #afb1b8;
 }
 body {
   position: relative;
@@ -140,6 +141,7 @@ body {
       var(--color-background-img)
     ),
     url(/images/img-overlay.png);
+  background-size: contain;
 }
 .top {
   display: flex;
@@ -307,6 +309,27 @@ body {
   width: 206px;
   height: 56px;
   margin: 16px 32px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-media-icons {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  fill: var(--color-icons-social-media);
+}
+.social-media-icons svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-media-icons:hover {
+  background-color: var(--color-blue);
+  fill: var(--color-background);
 }
 /*finish our team*/
 .footer {
