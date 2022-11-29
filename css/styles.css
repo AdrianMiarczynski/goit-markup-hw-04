@@ -373,6 +373,7 @@ body {
   width: 1600px;
   background: var(--color-header-footer);
   letter-spacing: 0.03em;
+  display: flex;
 }
 .container.last {
   flex-direction: column;
@@ -426,6 +427,31 @@ body {
   width: 231px;
   color: var(--color-background);
   text-decoration: none;
+}
+.footer-icons-media
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  width: 206px;
+  margin-top: 72px;
+}
+.footer-icons-media .social-media
+{
+  margin: 20px 0 0 0;
+}
+.footer-icons-media p
+{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-background);
+}
+.footer-icons-media a{
+  background:rgba(255, 255, 255, 0.1);
+  fill: var(--color-background);
 }
 /*finish footer*/
 
