@@ -13,6 +13,7 @@
   --color-img-border: #eeeeee;
   --color-background-img: #2f303a66;
   --color-icons-social-media: #afb1b8;
+  --color-border-icons: #AFB1B8;
 }
 body {
   position: relative;
@@ -332,6 +333,39 @@ body {
   fill: var(--color-background);
 }
 /*finish our team*/
+.our-customers {
+  height: 184px;
+  box-sizing: content-box;
+}
+.our-customers-title {
+  height: 42px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--color-almost-black);
+}
+.our-customers ul {
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+  list-style: none;
+}
+.company-logo {
+  fill: var(--color-icons-social-media);
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--color-border-icons);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.company-logo:hover {
+  border: 1px solid var(--color-blue);
+  fill: var(--color-blue);
+}
+/*finish our-customers */
 .footer {
   position: absolute;
   width: 1600px;
