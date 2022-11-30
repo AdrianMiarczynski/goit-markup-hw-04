@@ -134,7 +134,7 @@ body {
 .header {
   margin-left: -200px;
   width: 1600px;
-  height: 600px;
+  max-height: 600px;
   text-align: center;
   background-image: linear-gradient(
       to bottom,
@@ -181,7 +181,7 @@ body {
 /*finish header*/
 .attributes {
   width: 1170px;
-  height: 251px;
+  min-height: 251px;
   display: flex;
   box-sizing: content-box;
   padding-bottom: 0;
@@ -198,7 +198,7 @@ body {
 .attributes ul li .wrapper {
   display: flex;
   width: 270px;
-  height: 120px;
+  max-height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -308,7 +308,7 @@ body {
 }
 .social-media {
   width: 206px;
-  height: 56px;
+  padding: 6px 0;
   margin: 16px 32px 18px;
   display: flex;
   justify-content: space-between;
@@ -316,7 +316,7 @@ body {
 }
 .social-media-icons {
   width: 44px;
-  height: 44px;
+  min-height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -335,11 +335,9 @@ body {
 }
 /*finish our team*/
 .our-customers {
-  height: 184px;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 .our-customers-title {
-  height: 42px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -355,7 +353,7 @@ body {
 .company-logo {
   fill: var(--color-icons-social-media);
   width: 170px;
-  height: 92px;
+  padding: 16px 0;
   border: 1px solid var(--color-border-icons);
   border-radius: 4px;
   display: flex;
@@ -393,14 +391,14 @@ body {
 .address,
 .address:focus {
   width: 246px;
-  height: 81px;
   margin-bottom: 55px;
   margin-top: 20px;
 }
 .address ul {
   list-style: none;
   font-size: 14px;
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .address ul li:nth-child(2),
 .address ul li:nth-child(3) {
@@ -410,6 +408,12 @@ body {
 .address ul li a:hover,
 .address ul li a:active {
   color: rgba(255, 255, 255, 0.6);
+}
+.address ul li 
+{
+  line-height: 1.71;
+  font-weight: 400;
+  font-style: normal;
 }
 .location a {
   width: 246px;
@@ -423,7 +427,6 @@ body {
   text-decoration: none;
 }
 .contact-tel a {
-  position: absolute;
   width: 231px;
   color: var(--color-background);
   text-decoration: none;
@@ -456,7 +459,6 @@ body {
 .portfolio-page {
   box-sizing: content-box;
   width: 1170px;
-  height: 1360px;
   background: var(--color-background);
   color: var(--color-almost-black);
 }
@@ -519,7 +521,7 @@ body {
 }
 .main-box li .box-img {
   margin: 0;
-  height: 404px;
+  max-height: 404px;
 }
 .main-box li .box-img img {
   width: 370px;
