@@ -18,14 +18,12 @@
 body {
   position: relative;
   width: 1600px;
-  height: 2931px;
   background: var(--color-background);
   font-family: 'Roboto', sans-serif;
   color: var(--color-grey);
 }
 .menu {
   width: 1600px;
-  height: 80px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -42,6 +40,7 @@ body {
 }
 .principal {
   flex-direction: row;
+  max-height: 80px;
 }
 .logo {
   width: 145px;
@@ -134,7 +133,6 @@ body {
 .header {
   margin-left: -200px;
   width: 1600px;
-  max-height: 600px;
   text-align: center;
   background-image: linear-gradient(
       to bottom,
@@ -280,7 +278,6 @@ body {
 }
 .our-team ul li {
   width: 270px;
-  min-height: 368px;
   float: left;
   text-align: center;
   letter-spacing: 0.03em;
